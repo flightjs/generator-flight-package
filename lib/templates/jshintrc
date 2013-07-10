@@ -30,6 +30,7 @@
     "expect",
     "it",
     "requirejs",
-    "setupComponent"
+    "setupComponent",
+    "spyOnEvent"
   ]
 }
