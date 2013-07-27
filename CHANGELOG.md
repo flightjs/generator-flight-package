@@ -1,5 +1,9 @@
 === HEAD
 
+* Update to Flight ~1.1.0 in generated module.
+* Improve title of generated CONTRIBUTING.md.
+* Add `spyOnEvent` as predefined global in .jshintrc.
+
 === 0.1.0 (July 9, 2013)
 
 * Initial public release.
