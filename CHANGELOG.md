@@ -1,5 +1,6 @@
 === HEAD
 
+* Specify `yo` and `karma` as peerDependencies.
 * Update to Flight ~1.1.0 in generated module.
 * Improve title of generated CONTRIBUTING.md.
 * Add `spyOnEvent` as predefined global in .jshintrc.
