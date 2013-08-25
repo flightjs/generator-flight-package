@@ -1,5 +1,7 @@
 === HEAD
 
+=== 0.2.1 (August 25, 2013)
+
 * Add `main` property to generated `bower.json`.
 
 === 0.2.0 (August 6, 2013)
