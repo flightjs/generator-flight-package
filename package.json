@@ -4,6 +4,23 @@
   "description": "Generator for scaffolding out a Flight component",
   "author": "Twitter Inc",
   "main": "lib/generators/app/index.js",
+  "scripts": {
+    "test": "mocha --no-colors --reporter spec"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.13.0"
+  },
+  "peerDependencies": {
+    "karma": ">=0.8.0",
+    "yo": ">=1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
   "keywords": [
     "package",
     "flight",
@@ -17,22 +34,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/flightjs/generator-flight-package.git"
-  },
-  "scripts": {
-    "test": "mocha --no-colors --reporter spec"
-  },
-  "dependencies": {
-    "yeoman-generator": "~0.12.2"
-  },
-  "peerDependencies": {
-    "karma": ">=0.8.5",
-    "yo": ">=1.0.0-rc.1.1"
-  },
-  "devDependencies": {
-    "mocha": "~1.8.1"
-  },
-  "engines": {
-    "node": ">=0.8.0"
   },
   "licenses": [
     {
