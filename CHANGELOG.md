@@ -1,5 +1,7 @@
 === HEAD
 
+* Use Karma 0.10.x in the generated package.
+
 === 0.2.1 (August 25, 2013)
 
 * Add `main` property to generated `bower.json`.
