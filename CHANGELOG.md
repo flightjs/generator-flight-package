@@ -1,5 +1,7 @@
 === HEAD
 
+=== 0.3.0 (August 26, 2013)
+
 * Use Karma 0.10.x in the generated package.
 
 === 0.2.1 (August 25, 2013)
