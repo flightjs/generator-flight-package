@@ -1,5 +1,7 @@
 === HEAD
 
+* Add `grunt` and `grunt-bump` to the generated package to help automate new package releases.
+
 === 0.3.0 (August 26, 2013)
 
 * Use Karma 0.10.x in the generated package.

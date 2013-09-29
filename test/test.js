@@ -48,6 +48,7 @@ describe('Flight package generator test', function () {
         'bower.json',
         'karma.conf.js',
         'package.json',
+        'Gruntfile.js',
         // docs
         'CHANGELOG.md',
         'CONTRIBUTING.md',

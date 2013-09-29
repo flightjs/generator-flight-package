@@ -80,8 +80,9 @@ Produces a package named `flight-foo` with the following output:
 ├── LICENSE.md
 ├── README.md
 ├── bower.json
+├── package.json
 ├── karma.conf.js
-└── package.json
+└── Gruntfile.js
 ```
 
 #### Locally installed software
@@ -97,12 +98,13 @@ Node-based toolchain for your development workflow.
 
 **via npm**
 
+* [Grunt](http://gruntjs.com/) task runner
 * [Karma](http://karma-runner.github.io/) unit test runner
 
 
 ## Running your package's tests
 
-The generated app uses a local installation of Karma to run the unit tests.
+The generated package uses a local installation of Karma to run the unit tests.
 Karma makes it easy to run and automatically re-run your unit tests in real
 browsers:
 
@@ -122,6 +124,26 @@ npm test
 
 For further information about configuring Karma, please refer to the [Karma
 website](http://karma-runner.github.io/).
+
+
+## Releasing new versions of your package
+
+The generated package uses Grunt to help automate the process of incrementing
+version numbers in package manifests, commiting the changes, tagging a new
+release, and pushing the changes and tags to your remote repository. This can
+all be done with the following command (remember to update your CHANGELOG
+first):
+
+```
+grunt bump:<patch|minor|major>
+```
+
+Alternatively, you can use the following command to bump the versions and do
+nothing else:
+
+```
+grunt bump-only:<patch|minor|major>
+```
 
 
 ## Contributing to this project
