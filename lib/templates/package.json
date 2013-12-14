@@ -1,6 +1,10 @@
 {
   "name": "flight-<%= name %>",
   "version": "0.0.0",
+  "keywords": [
+    "flight-component",
+    "flight-<%= name %>"
+  ],
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-bump": "latest",

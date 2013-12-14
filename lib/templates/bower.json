@@ -1,6 +1,10 @@
 {
   "name": "flight-<%= name %>",
   "version": "0.0.0",
+  "keywords": [
+    "flight-component",
+    "flight-<%= name %>"
+  ],
   "main": "lib/<%= name %>.js",
   "dependencies": {
     "flight": "~1.1.0"
