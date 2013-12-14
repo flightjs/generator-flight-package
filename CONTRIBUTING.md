@@ -96,11 +96,11 @@ included in the project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/generator-flight
+   git clone https://github.com/<your-username>/generator-flight-package
    # Navigate to the newly cloned directory
    cd generator-flight
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/twitter/generator-flight
+   git remote add upstream https://github.com/flightjs/generator-flight-package
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
