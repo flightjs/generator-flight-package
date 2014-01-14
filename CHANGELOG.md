@@ -1,5 +1,6 @@
 === HEAD
 
+* Specify a version range for `jasmine-jquery` and `jasmine-flight`.
 * Add `grunt` and `grunt-bump` to the generated package to help automate new package releases.
 
 === 0.3.0 (August 26, 2013)
