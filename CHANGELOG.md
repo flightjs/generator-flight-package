@@ -1,5 +1,7 @@
 === HEAD
 
+* Update `jasmine-flight` to 2.2.x.
+
 === 0.3.1 (January 14, 2014)
 
 * Specify a version range for `jasmine-jquery` and `jasmine-flight`.
