@@ -1,5 +1,6 @@
 === HEAD
 
+*  Update `yeoman-generator` to 0.16.x.
 * Update `jasmine-flight` to 2.2.x.
 
 === 0.3.1 (January 14, 2014)
