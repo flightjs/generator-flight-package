@@ -1,5 +1,7 @@
 === HEAD
 
+=== 0.4.0 (January 18, 2014)
+
 * Remove scaffold's dependency on globally installed Karma.
 * Update `yeoman-generator` to 0.16.x.
 * Update `jasmine-flight` to 2.2.x.
