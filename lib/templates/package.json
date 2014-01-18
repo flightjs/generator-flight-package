@@ -15,6 +15,7 @@
     "matchdep": "latest"
   },
   "scripts": {
-    "test": "./node_modules/.bin/karma start --single-run --reporters dots --browsers PhantomJS"
+    "test": "karma start --single-run --reporters dots --browsers PhantomJS",
+    "watch-test": "karma start"
   }
 }

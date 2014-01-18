@@ -16,25 +16,24 @@ bower install --save flight-<%= name %>
 
 ## Development
 
-Development of this component requires [Bower](http://bower.io), and preferably
-[Karma](http://karma-runner.github.io) to be globally installed:
+Development of this component requires [Bower](http://bower.io) to be globally
+installed:
 
 ```bash
-npm install -g bower karma
+npm install -g bower
 ```
 
 Then install the Node.js and client-side dependencies by running the following
 commands in the repo's root directory.
 
 ```bash
-npm install
-bower install
+npm install & bower install
 ```
 
-To continuously run the tests in Chrome and Firefox during development, just run:
+To continuously run the tests in Chrome during development, just run:
 
 ```bash
-karma start
+npm run watch-test
 ```
 
 ## Contributing to this project
