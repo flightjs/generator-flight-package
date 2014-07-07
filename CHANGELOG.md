@@ -1,5 +1,7 @@
 === HEAD
 
+=== 0.5.0 (July 7, 2014)
+
 * Update Karma modules in generated package.
 * Update `flight` to ^1.2.0.
 
