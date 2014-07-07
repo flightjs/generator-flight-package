@@ -1,5 +1,8 @@
 === HEAD
 
+* Update Karma modules in generated package.
+* Update `flight` to ^1.2.0.
+
 === 0.4.0 (January 18, 2014)
 
 * Remove scaffold's dependency on globally installed Karma.
