@@ -13,13 +13,9 @@ This is a [Flight](http://flightjs.github.io/) generator for
 ## Recommended setup
 
 Install [Node.js](http://nodejs.org/) (which comes with npm). It's best to have
-npm version 1.2.x or above installed.
+npm version `1.2.x` or above installed.
 
-Next, globally install the Flight package generator. This will automatically
-install [Bower](http://bower.io/), [Yo](http://yeoman.io/), and
-[Karma](http://karma-runner.github.io/) as global dependencies. These tools
-will help fetch and manage your dependencies, generate the boilerplate code,
-and run your Jasmine unit tests.
+Next, globally install the Flight package generator.
 
 ```
 npm install -g generator-flight-package
@@ -49,7 +45,7 @@ unless you include the `--skip-install` option.
 
 Flight makes it easy to create, share, and depend on standalone Flight
 components, e.g.,
-[flight-storage](https://github.com/cameronhunter/flight-storage).  This
+[flight-storage](https://github.com/cameronhunter/flight-storage). This
 generator is designed to setup everything you need to create a Flight component
 suitable for registration with the Bower package manager.
 
