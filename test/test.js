@@ -34,8 +34,10 @@ describe('Flight package generator test', function () {
       cb();
     });
 
-    it('runs sucessfully', function () {
-      flightPackage.run();
+    it('runs sucessfully', function (done) {
+      flightPackage.run({}, function () {
+          done();
+      });
     });
 
     it('creates expected files', function (cb) {
