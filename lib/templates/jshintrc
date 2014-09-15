@@ -21,6 +21,8 @@
   "predef": [
     "$",
     "jQuery",
+    "after",
+    "afterEach",
     "before",
     "beforeEach",
     "define",
